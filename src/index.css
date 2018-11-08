@@ -39,4 +39,7 @@ body {
 .top-menu-item {
     text-align: center;
     margin: 0;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 100;
 }
