@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import Header from './Header.js';
+import Menu from './Menu.js';
 
 class Listings extends Component {
     render() {
         return (
             <div className='listings-container'>
-                <Header />
-                
-                <img className='background-pic' src='https://images.pexels.com/photos/462358/pexels-photo-462358.jpeg?cs=srgb&dl=garden-house-lawn-462358.jpg&fm=jpg' alt='house pic' />
-                
+                <div className='top-header'>
+                    <Header />
+                    <Menu />
+                    <img className='background-pic' src='https://images.pexels.com/photos/462358/pexels-photo-462358.jpeg?cs=srgb&dl=garden-house-lawn-462358.jpg&fm=jpg' alt='house pic' />
+                </div>
                 <div className='zillow-large-search-box-widget-container'>
                     <h2>Find Homes</h2>
                     <div>
