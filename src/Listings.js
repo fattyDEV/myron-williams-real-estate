@@ -31,7 +31,7 @@ class Listings extends Component {
                             <tr>
                                 <td className='info'>
                                     <span id="widgetFooterLink" className="regionBasedLink">
-                                        <a href="https://www.zillow.com/charlotte-nc/" target="_blank" rel="noopener noreferrer"><span className="region">Charlotte</span>Real Estate Listing</a>
+                                        <a href="https://www.zillow.com/monroe-nc/" target="_blank" rel="noopener noreferrer"><span className="region">Monroe</span>Real Estate Listing</a>
                                     </span>
                                 </td>
                                 <td className='info'>
@@ -48,7 +48,7 @@ class Listings extends Component {
                             <tr>
                                 <td className='info'>
                                     <span id="widgetFooterLink" className="regionBasedLink">
-                                        <a href="https://www.zillow.com/charlotte-nc/foreclosures/" target="_blank" rel="noopener noreferrer"><span className="region">Charlotte</span>Foreclosures</a>
+                                        <a href="https://www.zillow.com/monroe-nc/foreclosures/" target="_blank" rel="noopener noreferrer"><span className="region">Monroe</span>Foreclosures</a>
                                     </span>
                                 </td>
                                 <td className='info'>
