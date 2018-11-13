@@ -14,12 +14,13 @@ class Listings extends Component {
                 <div className='zillow-large-search-box-widget-container'>
                     <h2>Find Homes</h2>
                     <div>
-                        <a href="https://www.zillow.com/" target="_blank" rel="nofollow"><img alt="Zillow Real Estate Information" src="https://www.zillow.com/widgets/GetVersionedResource.htm?path=%2Fstatic%2Fimages%2Fpowered-by-zillow.gif"></img></a>
+                        <a href="https://www.zillow.com/" target="_blank" rel="noopener noreferrer"><img alt="Zillow Real Estate Information" src="https://www.zillow.com/widgets/GetVersionedResource.htm?path=%2Fstatic%2Fimages%2Fpowered-by-zillow.gif"></img></a>
                     </div>
 
-                    <iframe  
+                    <iframe 
+                        title='zillow search box' 
                         className='iframe' 
-                        src="https://www.zillow.com/widgets/search/LargeSearchBoxWidget.htm?did=zillow-large-search-box-iframe-widget&type=iframe&rgname=Charlotte+NC&shvi=yes"
+                        src="https://www.zillow.com/widgets/search/LargeSearchBoxWidget.htm?did=zillow-large-search-box-iframe-widget&type=iframe&rgname=Monroe+NC&shvi=yes"
                     ></iframe>
                     
                     <table className="zillow-tnc-widget-footer-links">
@@ -30,34 +31,34 @@ class Listings extends Component {
                             <tr>
                                 <td className='info'>
                                     <span id="widgetFooterLink" className="regionBasedLink">
-                                        <a href="https://www.zillow.com/charlotte-nc/" target="_blank" rel="nofollow"><span className="region">Charlotte</span>Real Estate Listing</a>
+                                        <a href="https://www.zillow.com/charlotte-nc/" target="_blank" rel="noopener noreferrer"><span className="region">Charlotte</span>Real Estate Listing</a>
                                     </span>
                                 </td>
                                 <td className='info'>
                                     <span id="widgetFooterLink" className='rates'>
-                                        <a href="https://www.zillow.com/mortgage-rates/" target="_blank" rel="nofollow">Mortgage Rates</a>
+                                        <a href="https://www.zillow.com/mortgage-rates/" target="_blank" rel="noopener noreferrer">Mortgage Rates</a>
                                     </span>
                                 </td>
                                 <td className='info'>
                                     <span id="widgetFooterLink" className='rates'>
-                                        <a href="https://www.zillow.com/refinance/" target="_blank" rel="nofollow">Refinancing</a>
+                                        <a href="https://www.zillow.com/refinance/" target="_blank" rel="noopener noreferrer">Refinancing</a>
                                     </span>
                                 </td>
                             </tr>
                             <tr>
                                 <td className='info'>
                                     <span id="widgetFooterLink" className="regionBasedLink">
-                                        <a href="https://www.zillow.com/charlotte-nc/foreclosures/" target="_blank" rel="nofollow"><span className="region">Charlotte</span>Foreclosures</a>
+                                        <a href="https://www.zillow.com/charlotte-nc/foreclosures/" target="_blank" rel="noopener noreferrer"><span className="region">Charlotte</span>Foreclosures</a>
                                     </span>
                                 </td>
                                 <td className='info'>
                                     <span id="widgetFooterLink" className='rates'>
-                                        <a href="https://www.zillow.com/mortgage-calculator/" target="_blank" rel="nofollow">Mortgage Calculators</a>
+                                        <a href="https://www.zillow.com/mortgage-calculator/" target="_blank" rel="noopener noreferrer">Mortgage Calculators</a>
                                     </span>
                                 </td>
                                 <td className='info'>
                                     <span id="widgetFooterLink" className='rates'>
-                                        <a href="https://www.zillow.com/mortgage-rates/" target="_blank" rel="nofollow">Purchase Loans</a>
+                                        <a href="https://www.zillow.com/mortgage-rates/" target="_blank" rel="noopener noreferrer">Purchase Loans</a>
                                     </span>
                                 </td>
                             </tr>
