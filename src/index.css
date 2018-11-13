@@ -141,6 +141,7 @@ body {
     justify-content: center;
     position: relative;
     z-index: 2;
+    margin-bottom: 1em;
 }
 
 .zillow-tnc-widget-footer-links {
