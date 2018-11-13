@@ -1,18 +1,25 @@
 body {
     width: 100%;
-    background-image: url(https://images.pexels.com/photos/462358/pexels-photo-462358.jpeg?cs=srgb&dl=garden-house-lawn-462358.jpg&fm=jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 
 .App-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.background-pic {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0.35;
 }
 
 .header {
     width: 100%;
+    position: relative;
 }
 
 .header-logo {
