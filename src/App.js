@@ -20,7 +20,7 @@ class App extends Component {
             <Footer />
           </div>
         )}/>
-        <Route exact path='/listings' render={() => (
+        <Route exact path='/find-a-home' render={() => (
           <Listings />
         )}/>
       </div>
